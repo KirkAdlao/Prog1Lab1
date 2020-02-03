@@ -1,23 +1,16 @@
-public class MyAgeIs {
+	import java.util.*;
+	public class MyAgeIs {
+ 	 public static void main(String[] args) {
 
-    public static void main(String[] args) {
-        // Prints "Hello, World" to the terminal window.
-        System.out.println("Hello, World");
-   int year, nextyear;
-   double distance;
-   char letter;
-   boolean state;
+ 	 	Scanner kb = new Scanner (System.in);
+ 	 	System.out.println("Please enter the year of your birth");
+ 	 	int yearborn = kb.nextInt();
 
-   year = 2020;
-   nextyear = year + 1;
+ 	 	int currentyear = 2020;
+ 	 	int age = currentyear - yearborn;
 
-   System.out.println(" the current year is " + year);
-   System.out.println(" the next year is " + nextyear);
+ 	 	System.out.println("Your age is " + age);
 
-   distance = 2.3;
-   letter = 'a';
-   state = true; 
-
-    }
+ 	 }
 
 }
