@@ -4,14 +4,13 @@ import java.util.*;
 
  	 	Scanner kb = new Scanner (System.in);
  	 	System.out.println("Please enter the unit you want to convert from meters to feet");
- 	 	int meters = kb.nextInt();
+ 	 	double meter = kb.nextInt();
+ 	 	double conversion;
 
- 	 	int meter = 1;
- 	 	int feet = 3.28084;
- 	 	int conversion = meter * feet;
+ 	 	double feet = 3.28084;
+ 	 	conversion = meter * feet;
 
- 	 	System.out.println( + feet);
-
+ 	 	System.out.println(meter + " meter is equal to " + conversion);
  	 }
 
 }
