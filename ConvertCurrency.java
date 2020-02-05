@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CurrencyConverter {
+public class ConvertCurrency {
 
     public static void main(String[] args) {
             Scanner sc = new Scanner (System.in);
@@ -30,3 +30,5 @@ public class CurrencyConverter {
 
              System.out.println("Your Euro is equal to" + usvalueeuro + "$USD");
              System.out.println("Your Euro is equal to " + cadvalueeuro + "$CAD");
+            }
+	    }        
